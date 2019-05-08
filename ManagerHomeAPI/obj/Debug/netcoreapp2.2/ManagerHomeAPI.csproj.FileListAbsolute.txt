@@ -1,0 +1,14 @@
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/bin/Debug/netcoreapp2.2/ManagerHomeAPI.deps.json
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/bin/Debug/netcoreapp2.2/ManagerHomeAPI.runtimeconfig.json
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/bin/Debug/netcoreapp2.2/ManagerHomeAPI.runtimeconfig.dev.json
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/bin/Debug/netcoreapp2.2/ManagerHomeAPI.dll
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/bin/Debug/netcoreapp2.2/ManagerHomeAPI.pdb
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/obj/Debug/netcoreapp2.2/ManagerHomeAPI.csprojAssemblyReference.cache
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/obj/Debug/netcoreapp2.2/ManagerHomeAPI.csproj.CoreCompileInputs.cache
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/obj/Debug/netcoreapp2.2/ManagerHomeAPI.RazorAssemblyInfo.cache
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/obj/Debug/netcoreapp2.2/ManagerHomeAPI.RazorAssemblyInfo.cs
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/obj/Debug/netcoreapp2.2/ManagerHomeAPI.AssemblyInfoInputs.cache
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/obj/Debug/netcoreapp2.2/ManagerHomeAPI.AssemblyInfo.cs
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/obj/Debug/netcoreapp2.2/ManagerHomeAPI.RazorTargetAssemblyInfo.cache
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/obj/Debug/netcoreapp2.2/ManagerHomeAPI.dll
+/Users/phongnv/Documents/VS/ManagerHome/ManagerHomeAPI/obj/Debug/netcoreapp2.2/ManagerHomeAPI.pdb

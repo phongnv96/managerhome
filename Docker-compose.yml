@@ -1,0 +1,43 @@
+version: "3"
+services: 
+  web:
+      image: myapp-api
+      container_name: myapp.dev.api
+      build:
+        context: ./ManagerHomeAPI
+        dockerfile: dockerfile
+      ports: 
+          - "5000:5000"
+      depends_on: 
+          - db
+      networks: 
+          - aspapp-network
+
+  db:
+     image: "mcr.microsoft.com/mssql/server"
+     container_name: db
+     environment: 
+          - ACCEPT_EULA=Y
+          - MSSQL_PID=Express
+          - SA_PASSWORD=Phongnv_96
+     networks: 
+          - aspapp-network
+     ports: 
+          - "1433:1433"
+     volumes:
+        # Pass volume named mysql-data to mysql container
+          - "db:/var/lib/mysql"
+  angular:
+     hostname: localhost
+     container_name: angular-container
+     build:
+          context: ./ManagerApp
+          dockerfile: dockerfile
+     ports:
+      - "4200:80"
+networks: 
+      aspapp-network:
+        driver: bridge
+# Add volumes definition to create volume mysql-data referenced above
+volumes:
+  db:
