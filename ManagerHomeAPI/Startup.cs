@@ -31,7 +31,7 @@ namespace ManagerHomeAPI {
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices (IServiceCollection services) {
-            var connection = @"Server=db;Database=ManagerHome;User Id=sa;Password=Phongnv_96;";
+            var connection = @"Server=127.0.0.1,1433;Database=ManagerHome;User Id=sa;Password=Phongnv_96;";
             services.AddDbContext<DataContext> (
                 options => options.UseSqlServer (connection));
             var key = Encoding.ASCII.GetBytes (Configuration.GetSection ("AppSettings:Token").Value);
